@@ -1,0 +1,290 @@
+body {
+  max-width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #000000;
+  color: #25d366;
+  padding: 5px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 32px;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 25px;
+}
+
+.container-text {
+  padding: 80px;
+}
+
+.container-small {
+  padding: 800px;
+}
+.container-max {
+  padding: 15px;
+}
+
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.has-image-right {
+  float: right;
+}
+
+.has-text-item-centered {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.border-left {
+  border: #000000;
+  border-radius: 1px;
+}
+/* page loader */
+
+/* navbar header logo styles */
+
+.container-nav {
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-nav {
+  max-width: 100%;
+  flex-basis: 10%;
+}
+.text-nav {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+/* link styles */
+
+hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}
+
+a {
+  color: #d32218;
+  position: relative;
+  text-decoration: none;
+}
+
+a.link-fullwidth {
+  display: block;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #d32218;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+a.nav-row::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #d32218;
+  top: 35px;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+a.link-fullwidth::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #d32218;
+  top: 48px;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+a.no-link-animation::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 0px;
+  background-color: #000000;
+  top: 48px;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+/* home images and styles*/
+
+/*font styles */
+
+.title {
+  font-family: "EB Garamond", serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+.has-text-underlined {
+  text-decoration: underline;
+  text-decoration-color: #d32218;
+}
+
+.has-text-underlined-red {
+  text-decoration: underline;
+  text-decoration-color: #d32218;
+}
+
+/* Text colors */
+
+.has-text-red {
+  color: #d32218;
+}
+
+/* Background colors */
+
+.has-background-red {
+  background-color: #d32218;
+}
+
+.is-faded {
+  opacity: 30%;
+}
+
+/*nav bar code */
+
+/*Nav bar code*/
+
+.logo-style {
+  max-height: 100px;
+  max-width: 150px;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/*drop down menu styles */
+
+.dropdown-menu {
+  width: 100vw;
+  position: fixed !important;
+  left: 0;
+  top: 97px;
+  box-shadow: none;
+  border: none;
+}
+
+@media (max-width: 1023px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .container-text {
+    padding: 100px;
+  }
+
+  .container-action {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .container-text {
+    padding: 20px;
+  }
+
+  .container-action {
+    padding: 30px;
+  }
+}
+
+#header-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#footer-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.editor li {
+  margin-bottom: 0 !important;
+}

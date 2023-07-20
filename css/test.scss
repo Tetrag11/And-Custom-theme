@@ -1,0 +1,26 @@
+.wiswig-editor {
+  h1 {
+    font-family: "EB Garamond", serif;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 2rem; /* Equivalent to Bulma's is-size-3-desktop */
+    text-align: center; /* Equivalent to Bulma's has-text-centered */
+
+    /* Media queries for different screen sizes */
+    @media (max-width: 1023px) {
+      font-size: 1.5rem; /* Equivalent to Bulma's is-size-3-tablet */
+    }
+
+    @media (max-width: 767px) {
+      font-size: 1.25rem; /* Equivalent to Bulma's is-size-4-mobile */
+    }
+  }
+  hr {
+    background-color: #f5f5f5;
+  }
+  li {
+    font-size: 0.75rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,72 @@
+.home-cover {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/home-cover.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faculty-cover {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/faculty-cover.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-cover {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/about-cover.png"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fashion-thumbnail {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/home-cover.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.school-of-fashion-design-cover {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/school-of-fashion-cover.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.school-of-creative-photography-cover {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/school-of-creative-photography-cover.png"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.school-of-graphics-and-animation-cover {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/school-of-graphics-and-animation-cover.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-workshops-cover {
+  color: #ffffff;
+  background-color: #000000;
+  /* background-image: url("../img/our-workshops-cover.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
